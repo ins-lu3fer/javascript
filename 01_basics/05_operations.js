@@ -17,7 +17,25 @@ let gameCounter = 100
 gameCounter++;
 //console.log(gameCounter)
 
-console.log("2">1);
-console.log(null>0);
-console.log(null == 0);
-console.log(null>=0);
+//console.log("2">1);
+//console.log(null>0);
+//console.log(null == 0);
+//console.log(null>=0);
+
+let myYoutubename = "@hunterfurry"
+let anothername = myYoutubename
+anothername = "valowala"
+console.log(anothername)
+
+let userOne = {
+    email: "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "vivek@llb.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
+//stack (primitive) and heap (non primitive)
