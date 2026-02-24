@@ -28,4 +28,30 @@ const regularUser = {
  //console.log(obj3);
  
 
- console.log(tinderUser.hasOwnProperty('isLogged'));
+ //console.log(tinderUser.hasOwnProperty('isLogged'));
+
+
+ const course = {
+    coursename: "valo in hindi",
+    price : "999",
+    courseInstructor: "luci"
+ }
+
+ //console.log(course.courseInstructor);
+
+ const {courseInstructor : instructor} = course //destructure
+ console.log(instructor);
+
+ {
+    "name": "luci",
+    "coursename ": "valo in hindi",
+   " price " : "free"
+   //json
+ }
+
+[
+    {}
+    {}
+
+]
+
