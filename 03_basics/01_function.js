@@ -30,7 +30,7 @@ const result = addTwoNumbers(3,5)
 //console.log("Result :" , result);
 
 
-function loginUserMessage (username = "luci"){
+/* function loginUserMessage (username = "luci"){
     if(!username){
        console.log("please enter a username");
        return
@@ -39,4 +39,35 @@ function loginUserMessage (username = "luci"){
 }
 
 //console.log((loginUserMessage("luci")));
-console.log(loginUserMessage("vivek"))
+console.log(loginUserMessage("vivek")) */
+
+
+function calculateCartPrice(val1,val2,...num1){
+    return num1
+}
+  
+//console.log(calculateCartPrice(200,400,500,2000));
+
+const user = {
+    username : "luci",
+    price : 199
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+
+}
+handleObject({
+    username:"vivek",
+    price:899
+})
+
+
+const myNewArray = [200,400,100,600]
+
+function returnSecondValue(getArray){
+    return getArray[2]
+}
+
+console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([200,400,500,1000]))
